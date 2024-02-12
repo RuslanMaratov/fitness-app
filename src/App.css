@@ -4,43 +4,6 @@
 }
 
 .App {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.App-header {
-  height: 100px;
-  width: 100%;
-  display: flex;
-  align-items: center;
   background-color: black;
-}
-
-.header-logo {
-  width: 150px;
-  height: 100px;
-}
-
-.header-items {
-  height: 100px;
-  width: inherit;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  margin-left: 150px;
-}
-
-.header-item {
-  color: white;
-  text-decoration: none;
-  font-family: "Rubik Bubbles", system-ui;
-  font-size: 20px;
-  transition: color ease 0.5s;
-}
-
-.header-item:hover {
-  color: red;
+  height: 100%;
 }

@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.footer__text {
+  color: white;
+  font-size: 27px;
+  font-family: "Rubik Bubbles", system-ui;
+  letter-spacing: 2px;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 30px;
+}
+
+.footer__icons svg {
+  width: 50px;
+  height: 50px;
+  transition: all 0.3s ease;
+}
+
+.footer__icons svg:hover {
+  transform: scale(1.1);
+}
+
+.instaLogo {
+  width: 60px;
+}
