@@ -1,0 +1,77 @@
+.motivation {
+  height: 100%;
+  background-color: black;
+}
+
+.motivation__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.motivation__img {
+  height: 500px;
+  width: 800px;
+  padding: 0 30px;
+  margin-bottom: 20px;
+  border-radius: 10%;
+}
+
+.sliderNav {
+  height: 30px;
+  width: 300px;
+  background-color: red;
+  margin: 0 auto;
+  display: flex;
+}
+
+.sliderNav span {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  letter-spacing: 12px;
+  font-weight: 500;
+  color: red;
+}
+
+.sliderDiv {
+  height: 30px;
+  width: 10%;
+  background-color: white;
+}
+
+.arrowToLeft {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  transition: all 0.5s ease;
+}
+
+.arrowToLeft:hover {
+  transform: scale(1.1);
+  fill: red;
+}
+
+.arrowToLeft:active {
+  transform: scale(0.8);
+}
+
+.arrowToRight {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  transition: all 0.5s ease;
+}
+
+.arrowToRight:hover {
+  transform: scale(1.1);
+  fill: red;
+}
+
+.arrowToRight:active {
+  transform: scale(0.8);
+}
