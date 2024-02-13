@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../images/logo.png";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -9,9 +10,9 @@ export default function Header() {
         <img src={logo} alt="header-logo" className="header-logo" />
       </a>
       <div className="header-items">
-        <a className="header-item" href="/">
+        <Link className="header-item" to="/workout">
           ТРЕНИРОВКИ
-        </a>
+        </Link>
         <a className="header-item" href="/">
           УПРАЖНЕНИЯ
         </a>

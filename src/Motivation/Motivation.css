@@ -1,5 +1,6 @@
 .motivation {
   margin-bottom: 20px;
+  flex-grow: 1;
 }
 
 .motivation__container {

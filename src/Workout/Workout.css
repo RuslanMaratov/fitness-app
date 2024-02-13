@@ -1,0 +1,40 @@
+.workout {
+  padding: 0 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 260px 260px;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.workout__item {
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 5px whitesmoke;
+  transition: all 0.5s ease-in;
+  display: grid;
+  grid-template-rows: 80% 20%;
+}
+
+.workout__item img {
+  height: 100%;
+  width: 100%;
+}
+
+.workout__item h3 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.workout__item:hover {
+  box-shadow: 0px 0px 5px 2px whitesmoke;
+  transform: scale(1.02);
+}
